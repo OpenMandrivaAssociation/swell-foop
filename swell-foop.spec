@@ -1,8 +1,8 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
 
 Name:		swell-foop
-Version:	3.14.0
-Release:	%mkrel 3
+Version:	3.16.1
+Release:	1
 Summary:	GNOME colored tiles puzzle game
 License:	GPLv2+ and GFDL
 Group:		Games/Puzzles
@@ -24,13 +24,13 @@ Clear the screen by removing groups of colored and shaped tiles
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
 %makeinstall_std
 
-%find_lang %{name} --with-gnome --with-help
+%find_lang %{name} --with-gnome
 
 %files -f %{name}.lang
 %license COPYING

@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   swell-foop-3.14.0.tar.xz: 4db43b771286d473cef78d12db6997c7404b999b
+sources:
+  swell-foop-3.16.1.tar.xz: 168d4bc00981d6f9ff7f85e0ee21d113cadbc8f4
