@@ -2,7 +2,7 @@
 
 Name:		swell-foop
 Version:	3.16.1
-Release:	2
+Release:	3
 Summary:	GNOME colored tiles puzzle game
 License:	GPLv2+ and GFDL
 Group:		Games/Puzzles
