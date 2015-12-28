@@ -1,8 +1,9 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
+%define _disable_rebuild_configure 1
 
 Name:		swell-foop
-Version:	3.16.1
-Release:	3
+Version:	3.18.1
+Release:	1
 Summary:	GNOME colored tiles puzzle game
 License:	GPLv2+ and GFDL
 Group:		Games/Puzzles
