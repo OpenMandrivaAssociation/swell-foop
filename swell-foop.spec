@@ -2,7 +2,7 @@
 %define _disable_rebuild_configure 1
 
 Name:		swell-foop
-Version:	3.18.1
+Version:	3.30.0
 Release:	1
 Summary:	GNOME colored tiles puzzle game
 License:	GPLv2+ and GFDL
@@ -15,6 +15,7 @@ BuildRequires:	pkgconfig(gtk+-3.0) >= 3.4.0
 BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
+BuildRequires:  meson
 # For help
 Requires:	yelp
 
@@ -25,11 +26,11 @@ Clear the screen by removing groups of colored and shaped tiles
 %setup -q
 
 %build
-%configure
-%make
+%meson
+%meson_build
 
 %install
-%makeinstall_std
+%meson_install
 
 %find_lang %{name} --with-gnome
 
