@@ -38,9 +38,8 @@ Clear the screen by removing groups of colored and shaped tiles
 %files -f %{name}.lang
 %doc COPYING
 %{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
+%{_datadir}/applications/org.gnome.SwellFoop.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.%{name}.gschema.xml
-%{_iconsdir}/*/*/apps/%{name}.*
-%{_iconsdir}/*/*/apps/%{name}-symbolic.*
+%{_iconsdir}/*/*/apps/org.gnome.SwellFoop*.*
 %{_datadir}/%{name}
-%{_datadir}/metainfo/%{name}.appdata.xml
+%{_datadir}/metainfo/org.gnome.SwellFoop.appdata.xml
