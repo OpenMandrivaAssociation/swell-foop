@@ -12,6 +12,7 @@ Source0:	https://download.gnome.org/sources/swell-foop/%{url_ver}/swell-foop-%{v
 BuildRequires:	pkgconfig(clutter-1.0) >= 1.0.0
 BuildRequires:	pkgconfig(clutter-gtk-1.0) >= 1.0.0
 BuildRequires:	pkgconfig(gtk+-3.0) >= 3.4.0
+BuildRequires:  pkgconfig(libgnome-games-support-1)
 BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
