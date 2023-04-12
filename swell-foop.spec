@@ -1,6 +1,8 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
 %define _disable_rebuild_configure 1
 
+%global optflags %{optflags} -Wno-incompatible-function-pointer-types
+
 Name:		swell-foop
 Version:	41.1
 Release:	3
