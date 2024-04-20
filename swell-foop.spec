@@ -4,16 +4,14 @@
 %global optflags %{optflags} -Wno-incompatible-function-pointer-types
 
 Name:		swell-foop
-Version:	41.1
-Release:	4
+Version:	46.0
+Release:	1
 Summary:	GNOME colored tiles puzzle game
 License:	GPLv2+ and GFDL
 Group:		Games/Puzzles
 URL:		https://wiki.gnome.org/Apps/Swell_Foop
 Source0:	https://download.gnome.org/sources/swell-foop/%{url_ver}/swell-foop-%{version}.tar.xz
-BuildRequires:	pkgconfig(clutter-1.0) >= 1.0.0
-BuildRequires:	pkgconfig(clutter-gtk-1.0) >= 1.0.0
-BuildRequires:	pkgconfig(gtk+-3.0) >= 3.4.0
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libgnome-games-support-1)
 BuildRequires:	intltool
 BuildRequires:	itstool
