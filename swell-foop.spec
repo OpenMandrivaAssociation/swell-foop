@@ -12,7 +12,7 @@ Group:		Games/Puzzles
 URL:		https://wiki.gnome.org/Apps/Swell_Foop
 Source0:	https://download.gnome.org/sources/swell-foop/%{url_ver}/swell-foop-%{version}.tar.xz
 BuildRequires:	pkgconfig(gtk4)
-BuildRequires:  pkgconfig(libgnome-games-support-1)
+BuildRequires:  pkgconfig(libgnome-games-support-2)
 BuildRequires:  pkgconfig(librsvg-2.0)
 BuildRequires:	intltool
 BuildRequires:	itstool
