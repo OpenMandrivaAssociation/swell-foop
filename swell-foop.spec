@@ -14,6 +14,7 @@ Source0:	https://download.gnome.org/sources/swell-foop/%{url_ver}/swell-foop-%{v
 BuildRequires:	pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libgnome-games-support-2)
 BuildRequires:  pkgconfig(librsvg-2.0)
+BuildRequires:  librsvg-vala-devel
 BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
