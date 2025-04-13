@@ -4,7 +4,7 @@
 %global optflags %{optflags} -Wno-incompatible-function-pointer-types
 
 Name:		swell-foop
-Version:	48.0
+Version:	48.1
 Release:	1
 Summary:	GNOME colored tiles puzzle game
 License:	GPLv2+ and GFDL
