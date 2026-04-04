@@ -4,8 +4,8 @@
 %global optflags %{optflags} -Wno-incompatible-function-pointer-types
 
 Name:		swell-foop
-Version:	48.1
-Release:	2
+Version:	50.0
+Release:	1
 Summary:	GNOME colored tiles puzzle game
 License:	GPLv2+ and GFDL
 Group:		Games/Puzzles
@@ -18,7 +18,7 @@ BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  librsvg-vala-devel
 BuildRequires:	intltool
 BuildRequires:	itstool
-BuildRequires:	libxml2-utils
+BuildRequires:	libxml2-utils >= 2.15.2
 BuildRequires:  meson
 BuildRequires:	vala
 # For help
