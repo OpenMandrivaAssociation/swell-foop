@@ -37,7 +37,7 @@ Clear the screen by removing groups of colored and shaped tiles
 %install
 %meson_install
 
-%find_lang %{name} --with-gnome
+%find_lang %{name} --all-name --with-gnome
 
 %files -f %{name}.lang
 %doc COPYING
